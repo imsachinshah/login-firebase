@@ -20,7 +20,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   void initState() {
-    
     super.initState();
     FirebaseFirestore.instance.collection('users').doc(users!.uid).get().then(
       (value) {

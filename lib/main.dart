@@ -7,7 +7,7 @@ Future<void> main() async {
   WidgetsFlutterBinding();
   await Firebase.initializeApp();
 
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Email And Password Login',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Colors.blue
       ),
       debugShowCheckedModeBanner: false,
       home: const LoginScreen(),

@@ -1,16 +1,33 @@
-# login_app
+# login_firebase
 
-A new Flutter project.
+A Flutter Login App intialized with Firebase
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+An App to learn and implement Google Firebase with Flutter Application.
 
-A few resources to get you started if this is your first Flutter project:
+### Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Login
+- SignUp
+- HomeScreen
+- LogOut
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Features to Come
+
+- Push Notification
+- More Firebase Features
+
+## Packages Used
+
+- cloud_firestore: ^4.1.0
+- firebase_auth: ^4.1.4
+- firebase_core: ^2.3.0
+- fluttertoast: ^8.1.1
+- firebase_messaging: ^14.2.1
+- flutter_local_notifications: ^13.0.0
+
+## Connect & Collab
+
+- LinkedIn: [Sachin Shah](https://linkedin.com/in/imsachinshah)
+- Twitter: [Sachin Shah](https://twitter.com/imsachinshah0)
